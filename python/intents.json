@@ -1,0 +1,33 @@
+{"intents":
+        [
+	    {
+              "tag": "balance",
+              "patterns": ["what is my balance", "how much i have", "account balance","balance"],
+              "responses": ["Balance"],
+              "context_set": ""
+            },  
+            {
+              "tag": "transaction",
+              "patterns": ["last transactions", "lastTransactions", "statement","ministatemnet"],
+              "responses": ["transaction"],
+              "context_set": ""
+            },
+            {
+              "tag": "newUser",
+              "patterns": ["signup", "new user","newuser","sign up"],
+              "responses": ["newUser"],
+              "context_set": ""
+            },
+            {
+              "tag": "FundTransfer",
+              "patterns":[ "Fund Transfer","FundTransfer","send money"],
+              "responses":[ "FundTransfer"]
+            },
+            {
+              "tag": "",
+              "patterns":[ ""],
+              "responses":[ ""]
+            }
+        ]
+}
+        
